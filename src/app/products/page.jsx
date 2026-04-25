@@ -2,7 +2,7 @@ import ProductCard from '@/components/productCard/page';
 import React from 'react'
 
 async function ProductsPage() {
-    const res = await fetch("http://localhost:4000/products", {cache: "no-store"});
+    const res = await fetch("http://localhost:4000/products", { cache: "no-store" });
     const productsData = await res.json();
     return (
         <div>

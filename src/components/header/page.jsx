@@ -1,7 +1,19 @@
+"use client"
+
+
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import React from 'react'
 
 function NavBar() {
+
+    const pathName = usePathname();
+
+
+    const activePath = (path) => {
+        return pathName === path ? "text-blue-600 font-bold" : "";
+    }
+
     return (
         <div>
 
@@ -11,9 +23,10 @@ function NavBar() {
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">
-                        <li><Link href={"/"}>Home</Link></li>
-                        <li><Link href={"/posts"} >Post</Link></li>
-                        <li><Link href={"/products"} >Products</Link></li>
+                        <li className={activePath("/")} ><Link href={"/"}>Home</Link></li>
+                        <li className={activePath("/posts")} ><Link href={"/posts"} >Post</Link></li>
+                        <li className={activePath("/products")} ><Link href={"/products"} >Products</Link></li>
+                        <li className={activePath("/books")} ><Link href={"/books"} >Books</Link></li>
                     </ul>
                 </div>
             </div>
