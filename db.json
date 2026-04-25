@@ -3,7 +3,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Quran Sharif",
+      "name": "Quran",
       "category": "Book",
       "price": 500,
       "image": "https://via.placeholder.com/150",
