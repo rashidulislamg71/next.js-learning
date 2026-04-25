@@ -1,0 +1,45 @@
+
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Quran Sharif",
+      "category": "Book",
+      "price": 500,
+      "image": "https://via.placeholder.com/150",
+      "description": "Holy Quran with Arabic text and translation"
+    },
+    {
+      "id": 2,
+      "name": "Prayer Mat",
+      "category": "Accessory",
+      "price": 500,
+      "image": "https://via.placeholder.com/150",
+      "description": "Comfortable prayer mat for daily use"
+    },
+    {
+      "id": 3,
+      "name": "Tasbih",
+      "category": "Accessory",
+      "price": 200,
+      "image": "https://via.placeholder.com/150",
+      "description": "33 beads tasbih for zikr"
+    },
+    {
+      "id": 4,
+      "name": "Islamic Wall Clock",
+      "category": "Home Decor",
+      "price": 1500,
+      "image": "https://via.placeholder.com/150",
+      "description": "Beautiful wall clock with Islamic design"
+    },
+    {
+      "id": 5,
+      "name": "Attar Perfume",
+      "category": "Fragrance",
+      "price": 800,
+      "image": "https://via.placeholder.com/150",
+      "description": "Alcohol-free long lasting attar perfume"
+    }
+  ]
+}
